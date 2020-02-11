@@ -1,0 +1,31 @@
+﻿@model Player
+
+@{
+    ViewData["Title"] = "Update Student Page";
+    var player = (Player)ViewBag.Player;
+}
+<head>
+
+</head>
+<body>
+    <div class="text-center">
+        <h1>Update Player</h1>
+    </div>
+
+    <div>
+        @using (Html.BeginForm("Update", "Players", FormMethod.Post))
+        {
+            <input type="hidden" value="@player.IdPlayer" name="id" />
+            <p>First name: @Html.TextBox("FirstName")</p>
+            <p>Last name:  @Html.TextBox("LastName")</p>
+            <p>BirthDate:  @Html.TextBox("BirthDate")</p>
+            <p>
+                Studies:
+                @Html.DropDownList("IdTeam", new SelectList(ViewBag.Teams, "IdTeam", "Name"))
+            </p>
+            <p>
+                <button type="submit">Update</button>
+            </p>
+        }
+    </div>
+</body>

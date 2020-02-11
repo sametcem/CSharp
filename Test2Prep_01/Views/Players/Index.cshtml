@@ -1,0 +1,69 @@
+﻿@model Player
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>List of Players</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Lastname</th>
+            <th> Firstname</th>
+            <th> Birthdate</th>
+            <th> Team name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var pl in (IEnumerable<Player>)ViewBag.Players)
+        {
+        <tr>
+            <td> @pl.LastName</td>
+            <td> @pl.FirstName</td>
+            <td> @pl.BirthDate</td>
+            <td> @pl.Team.Name</td>
+            <td>
+                <a href="@Url.Action("Delete", "Players", new { id = @pl.IdPlayer })">Delete</a>
+            </td>
+
+            <td>
+                <a href="@Url.Action("UpdatePlayerForm", "Players", new { id = @pl.IdPlayer })">Update</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<h2> Add Player </h2>
+<form method="post" asp-action="Create">
+
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input class="form-control" type="text" asp-for="FirstName" />
+        <span asp-validation-for="FirstName"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input class="form-control" type="text" asp-for="LastName" />
+        <span asp-validation-for="LastName"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BirthDate"></label>
+        <input class="form-control" type="date" asp-for="BirthDate" />
+        <span asp-validation-for="BirthDate"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IdTeam"></label>
+        <select asp-for="IdTeam"
+                class="form-control"
+                asp-items="@(new SelectList(ViewBag.Teams,"IdTeam","Name"))"></select>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Add Player" />
+    </div>
+</form>
+
+
