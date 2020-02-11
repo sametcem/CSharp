@@ -1,0 +1,15 @@
+C:\Users\CEM\source\repos\Pjatk\Task02\bin\Debug\Task02.exe.config
+C:\Users\CEM\source\repos\Pjatk\Task02\bin\Debug\Task02.exe
+C:\Users\CEM\source\repos\Pjatk\Task02\bin\Debug\Task02.pdb
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02.csprojAssemblyReference.cache
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\MainWindow.g.cs
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\App.g.cs
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02_MarkupCompile.cache
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02_MarkupCompile.lref
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\MainWindow.baml
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02.g.resources
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02.Properties.Resources.resources
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02.csproj.GenerateResource.cache
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02.exe
+C:\Users\CEM\source\repos\Pjatk\Task02\obj\Debug\Task02.pdb
