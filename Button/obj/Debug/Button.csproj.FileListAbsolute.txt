@@ -1,0 +1,14 @@
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\bin\Debug\Button.exe.config
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\bin\Debug\Button.exe
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\bin\Debug\Button.pdb
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\MainWindow.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\App.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button_MarkupCompile.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button_MarkupCompile.lref
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\MainWindow.baml
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button.g.resources
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button.Properties.Resources.resources
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button.csproj.GenerateResource.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button.exe
+C:\Users\CEM\source\repos\PJATK-Lecture2c\Button\obj\Debug\Button.pdb
