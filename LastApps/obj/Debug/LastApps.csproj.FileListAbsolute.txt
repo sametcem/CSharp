@@ -1,0 +1,17 @@
+C:\Users\CEM\source\repos\LastApps\LastApps\bin\Debug\LastApps.exe.config
+C:\Users\CEM\source\repos\LastApps\LastApps\bin\Debug\LastApps.exe
+C:\Users\CEM\source\repos\LastApps\LastApps\bin\Debug\LastApps.pdb
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps.csprojAssemblyReference.cache
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\AddEditWindow.g.cs
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\MainWindow.g.cs
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\App.g.cs
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps_MarkupCompile.cache
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps_MarkupCompile.lref
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\AddEditWindow.baml
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\MainWindow.baml
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps.g.resources
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps.Properties.Resources.resources
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps.csproj.GenerateResource.cache
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps.exe
+C:\Users\CEM\source\repos\LastApps\LastApps\obj\Debug\LastApps.pdb
