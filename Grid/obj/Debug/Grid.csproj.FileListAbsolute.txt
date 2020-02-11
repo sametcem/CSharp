@@ -1,0 +1,15 @@
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\bin\Debug\Grid.exe.config
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\bin\Debug\Grid.exe
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\bin\Debug\Grid.pdb
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid.csprojAssemblyReference.cache
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\MainWindow.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\App.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid_MarkupCompile.cache
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid_MarkupCompile.lref
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\MainWindow.baml
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid.g.resources
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid.Properties.Resources.resources
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid.csproj.GenerateResource.cache
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid.exe
+C:\Users\CEM\source\repos\PJATK-Lecture02\Grid\obj\Debug\Grid.pdb
