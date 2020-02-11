@@ -1,0 +1,60 @@
+﻿@model Animal
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>List of Animals</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Name</th>
+            <th> Animal Type</th>
+            <th> Owner</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var al in (IEnumerable<Animal>)ViewBag.Animals)
+        {
+        <tr>
+            <td> @al.Name</td>
+            <td> @al.AnimalType.Name</td>
+            <td> @al.Owner.FirstName @al.Owner.LastName</td>
+            <td>
+                <a href="@Url.Action("Delete", "Animal", new { id = @al.IdAnimal })">Delete</a>
+            </td>
+            <td>
+                <a href="@Url.Action("UpdateAnimalForm", "Animal", new { id = @al.IdAnimal })">Update</a>
+            </td>
+        </tr>
+       
+    }
+        </tbody>
+    </table>
+
+<h2> Add Animal </h2>
+<form method="post" asp-action="Create">
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input class="form-control" type="text" asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IdAnimalType"></label>
+        <select asp-for="IdAnimalType"
+                class="form-control"
+                asp-items="@(new SelectList(ViewBag.AnimalTypes,"IdAnimalType","Name"))"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IdOwner"></label>
+        <select asp-for="IdOwner"
+                class="form-control"
+                asp-items="@(new SelectList(ViewBag.Owners,"IdOwner","FirstName"))"></select>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Add Animal" />
+    </div>
+</form>

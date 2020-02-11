@@ -1,0 +1,35 @@
+﻿@model Animal
+
+@{
+    ViewData["Title"] = "Update Animal Page";
+    var animal = (Animal)ViewBag.Animal;
+}
+<head>
+
+</head>
+<body>
+    <div class="text-center">
+        <h1>Update Animal</h1>
+    </div>
+
+    <div>
+        @using (Html.BeginForm("Update", "Animal", FormMethod.Post))
+        {
+            <input type="hidden" value="@animal.IdAnimal" name="id" />
+            <p>Name: @Html.TextBox("Name")</p>
+            <p>
+                Animal Types:
+                @Html.DropDownList("IdAnimalType", new SelectList(ViewBag.AnimalTypes, "IdAnimalType", "Name"))
+            </p>
+            <p>
+                Owners:
+                @Html.DropDownList("IdOwner", new SelectList(ViewBag.Owners, "IdOwner", "FirstName"))
+            </p>
+
+
+            <p>
+                <button type="submit">Update</button>
+            </p>
+        }
+    </div>
+</body>
