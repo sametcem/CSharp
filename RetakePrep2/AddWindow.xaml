@@ -1,0 +1,32 @@
+﻿<Window x:Class="RetakePrep2.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RetakePrep2"
+        mc:Ignorable="d"
+        Title="AddWindow" Height="300" Width="450" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10" Background="Gold">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Add a new Employee" Foreground="Black" FontSize="20" VerticalAlignment="Center" Margin="10 0 10 5" Grid.Row="0"/>
+
+        <Label Grid.Row="1" Content="First Name" Foreground="Gray" VerticalAlignment="Center" Margin="10,5,305,10"/>
+        <TextBox x:Name="FirstNameTextBox" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20"  Width="290" Margin="0,10,10,11"/>
+
+        <Label Grid.Row="2" Content="Job" Foreground="Gray" VerticalAlignment="Center" Margin="10,5,305,10"/>
+        <TextBox x:Name="JobTextBox" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20"  Width="290" Margin="0,10,10,11"/>
+
+        <Label Grid.Row="3" Content="Department" Foreground="Gray" VerticalAlignment="Center" Margin="10,5,305,10"/>
+        <ComboBox x:Name="DeptComboBox" HorizontalAlignment="Right" Margin="0,10,10,11" Grid.Row="3" VerticalAlignment="Center" Width="290"></ComboBox>
+
+        <Button x:Name="Save_Button" Click="Save_Button_OnClick_Button_Click" Content="Save" HorizontalAlignment="Left" Margin="0,10,90,11" Grid.Row="4" VerticalAlignment="Center" Width="75" />
+        <Button x:Name="Cancel_Button" Click="Cancel_Button_Click"  Content="Cancel" HorizontalAlignment="Right" Margin="0,10,10,11" Grid.Row="4" VerticalAlignment="Center" Width="75" />
+    </Grid>
+</Window>
