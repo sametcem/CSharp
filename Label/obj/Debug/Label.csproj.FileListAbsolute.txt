@@ -1,0 +1,14 @@
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\bin\Debug\Label.exe.config
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\bin\Debug\Label.exe
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\bin\Debug\Label.pdb
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\MainWindow.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\App.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label_MarkupCompile.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label_MarkupCompile.lref
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\MainWindow.baml
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label.g.resources
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label.Properties.Resources.resources
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label.csproj.GenerateResource.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label.exe
+C:\Users\CEM\source\repos\PJATK-Lecture2f\Label\obj\Debug\Label.pdb
