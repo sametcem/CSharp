@@ -1,0 +1,78 @@
+﻿@model Rent
+@{
+    ViewData["Title"] = "Car_index";
+}
+
+<h2>List of Cars</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Description </th>
+            <th> Client </th>
+            <th> DateFrom</th>
+            <th> DateTo</th>
+            <th> Model </th>
+            <th> Registration Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in (IEnumerable<Rent>)ViewBag.Rents)
+        {
+        <tr>
+            <td> @r.Description</td>
+            <td> @r.Client</td>
+            <td> @r.DateFrom</td>
+            <td> @r.DateTo</td>
+            <td> @r.Car.Model</td>
+            <td> @r.Car.RegisterNumber</td>
+            <td>
+                <a href="@Url.Action("Delete", "Car", new { id = r.IdRent })">Delete</a>
+            </td>
+            <td>
+                <a href="@Url.Action("UpdateRentingForm", "Car", new { id = @r.IdRent })">Update</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<h2> Rent A Car </h2>
+<form method="post" asp-action="Create">
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input class="form-control" type="text" asp-for="Description" />
+        <span asp-validation-for="Description"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Client"></label>
+        <input class="form-control" type="text" asp-for="Client" />
+        <span asp-validation-for="Client"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DateFrom"></label>
+        <input class="form-control" type="date" asp-for="DateFrom" />
+        <span asp-validation-for="DateFrom"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DateTo"></label>
+        <input class="form-control" type="date" asp-for="DateTo" />
+        <span asp-validation-for="DateTo"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IdCar"></label>
+        <select asp-for="IdCar"
+                class="form-control"
+                asp-items="@(new SelectList(ViewBag.Cars, "IdCar", "RegisterNumber"))"></select>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Add Renting" />
+    </div>
+</form>
+
+

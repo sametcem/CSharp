@@ -1,0 +1,33 @@
+﻿@model Rent
+
+@{
+    ViewData["Title"] = "Update Renting Page";
+    var rent = (Rent)ViewBag.Rent;
+}
+<head>
+
+</head>
+<body>
+    <div class="text-center">
+        <h1>Update Renting</h1>
+    </div>
+
+    <div >
+        @using (Html.BeginForm("Update", "Car", FormMethod.Post))
+        {
+            
+            <input type="hidden" value="@rent.IdRent" name="id" />
+            <p>Description: @Html.TextBox("description", rent.Description)</p>
+            <p>Client:  @Html.TextBox("client", rent.Client)</p>
+            <p>Date From:  @Html.TextBox("DateFrom", rent.DateFrom)</p>
+            <p>Date To:  @Html.TextBox("DateTo",rent.DateTo)</p>
+            <p>
+                Car Models:
+                @Html.DropDownList("IdCar", new SelectList(ViewBag.Cars, "IdCar", "RegisterNumber"))
+            </p>
+            <p>
+                <button type="submit">Update</button>
+            </p>
+        }
+    </div>
+</body>
