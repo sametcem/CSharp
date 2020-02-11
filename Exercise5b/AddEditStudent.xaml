@@ -1,0 +1,38 @@
+﻿<Window x:Class="Exercise5b.AddEditStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise5b"
+        mc:Ignorable="d"
+        Title="AddEditStudent" Height="450" Width="800">
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="EditAddStudentTextBlock"  FontWeight="Bold" Margin="10" Grid.ColumnSpan="2" TextAlignment="Left" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Add Student" FontSize="25"></TextBlock>
+        <Label x:Name="FirstNameLabel" Content="Last Name" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="15"></Label>
+        <Label x:Name="LastNameLabel" Content="First Name" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="15"></Label>
+        <Label x:Name="IndexNummberLabel" Content="Index Number" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="15"></Label>
+        <Label x:Name="StudiesLabel" Content="Studies" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="15"></Label>
+        <Label x:Name="SubjectsLabel" Content="Subjects" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="15"></Label>
+        <Button x:Name="EditOK" Click="ButtonClickSendAdd"  Content="OK" Grid.Row="6" Grid.Column="1" Width="80" Margin="15" HorizontalAlignment="Left"></Button>
+        <Button Click="ButtonClickCancel"  Content="Cancel" Grid.Row="6" Grid.Column="1" Width="80" Margin="15" HorizontalAlignment="Right" ></Button>
+        <TextBox x:Name="LastNameTextBox"  Grid.Column="1" VerticalContentAlignment="Center" FontSize="15" HorizontalAlignment="Left" Grid.Row="1" TextAlignment="Center"  Text="TextBox" VerticalAlignment="Center" Margin="10, 0, 0, 0" Height="25" Width="240"/>
+        <TextBox x:Name="FirstNameTextBox" Grid.Column="1" VerticalContentAlignment="Center" FontSize="15" HorizontalAlignment="Left" Grid.Row="2" TextAlignment="Center"  Text="TextBox" VerticalAlignment="Center" Margin="10, 0, 0, 0" Height="25" Width="240"/>
+        <TextBox x:Name="IndexNumberTextBox" Grid.Column="1" VerticalContentAlignment="Center" FontSize="15" HorizontalAlignment="Left" Grid.Row="3" TextAlignment="Center"  Text="TextBox" VerticalAlignment="Center" Margin="10, 0, 0, 0" Height="25" Width="240"/>
+        <ComboBox x:Name="ListOfStudiesComboBox" IsSynchronizedWithCurrentItem="True" Grid.Column="1" VerticalContentAlignment="Center" FontSize="15" HorizontalAlignment="Left" Grid.Row="4" Text="TextBox" VerticalAlignment="Center" Margin="10, 0, 0, 0" Height="25" Width="240"/>
+        <ListBox x:Name="ListOfSubjectsListBox" Grid.Column="1" VerticalContentAlignment="Center" FontSize="15" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center" Margin="10, 0, 0, 0" Height="80" Width="240"/>
+    </Grid>
+</Window>
+

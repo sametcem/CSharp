@@ -1,0 +1,44 @@
+﻿<Window x:Class="Exercise5b.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise5b"
+        mc:Ignorable="d"
+        Title="Deans Office" Height="450" Width="800">
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <DataGrid SelectionMode="Extended" SelectionUnit="FullRow" SelectionChanged="StudentsListGrid_OnSelectionChanged" MouseDoubleClick="StudentsListGrid_MouseDoubleClick" x:Name="StudentsListGrid" ItemsSource="{Binding}" Grid.Row="1" Grid.ColumnSpan="3" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" >
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="IDStudent" Binding="{Binding IDStudent}" Header="ID" />
+                <DataGridTextColumn x:Name="FirstName" Binding="{Binding FirstName}" Header="First Name" />
+                <DataGridTextColumn x:Name="LastName" Binding="{Binding LastName}" Header="Last Name" />
+                <DataGridTextColumn x:Name="IndexNumber" Binding="{Binding IndexNumber}" Header="Index Number" />
+                <DataGridTextColumn x:Name="StudentsStudies" Binding="{Binding StudentsStudies}" Header="Studies" />
+                <DataGridTextColumn x:Name="Address" Binding="{Binding Address}" Header="Subject" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock FontWeight="Bold" Margin="10" TextAlignment="Left" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Students List" FontSize="40"></TextBlock>
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Button x:Name="AddEditStudentButton" Click="AddEditStudentButtonOnClick"  Content="Add" Margin="48,10,10.4,9.6" FontSize="20"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Button x:Name="DeleteStudentButton" Content="Delete"  FontSize="20" RenderTransformOrigin="1.986,0.543" Margin="34,10,25.4,9.6"/>
+        </Grid>
+        <StackPanel Grid.Row="2" VerticalAlignment="Center" Orientation="Horizontal" Grid.Column="0" RenderTransformOrigin="0.231,0.516" Grid.ColumnSpan="2" Margin="0,1.6,165.2,1">
+            <Label >You choosed</Label>
+            <Label x:Name="LabelCounter" FontWeight="Bold"></Label>
+            <Label >students</Label>
+        </StackPanel>
+
+    </Grid>
+</Window>

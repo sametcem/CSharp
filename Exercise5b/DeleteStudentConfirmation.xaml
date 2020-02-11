@@ -1,0 +1,24 @@
+﻿<Window x:Class="Exercise5b.DeleteStudentConfirmation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise5b"
+        mc:Ignorable="d"
+        Title="DeleteStudentConfirmation" Height="300" Width="550" WindowStartupLocation="CenterScreen">
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Margin="10" FontWeight="Bold" Grid.ColumnSpan="2" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Text="ARE YOU SURE YOU THAT YOU WANT TO DELETE THE DATA?" FontSize="17" />
+        <Button x:Name="YESButton"  FontWeight="Bold" Content="YES" Grid.Row="1" Grid.Column="0" Width="73" Margin="90,15,83.4,73.8" HorizontalAlignment="Center" />
+        <Button x:Name="NOButton" FontWeight="Bold" Content="NO" Grid.Row="1" Grid.Column="1" Width="70" Margin="93.6,15,83.6,73.8" HorizontalAlignment="Center" />
+    </Grid>
+
+
+</Window>
