@@ -1,0 +1,15 @@
+C:\Users\CEM\source\repos\PJATK\Task01\bin\Debug\Task01.exe.config
+C:\Users\CEM\source\repos\PJATK\Task01\bin\Debug\Task01.exe
+C:\Users\CEM\source\repos\PJATK\Task01\bin\Debug\Task01.pdb
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01.csprojAssemblyReference.cache
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\MainWindow.g.cs
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\App.g.cs
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01_MarkupCompile.cache
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01_MarkupCompile.lref
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\MainWindow.baml
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01.g.resources
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01.Properties.Resources.resources
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01.csproj.GenerateResource.cache
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01.exe
+C:\Users\CEM\source\repos\PJATK\Task01\obj\Debug\Task01.pdb

@@ -1,0 +1,58 @@
+﻿<Window x:Class="Task01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task01"
+        mc:Ignorable="d"
+        Title="DeansOffice" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Menu >
+            <MenuItem Header="File">
+                <MenuItem Header="Close" Click="MenuItem_OnClick" />
+            </MenuItem>
+            <MenuItem Header="Edit" />
+            <MenuItem Header="Modules"/>
+        </Menu>
+
+        <TreeView x:Name="PersonTypeTreeView" Grid.Column="0" Grid.Row="0" BorderThickness="0">
+
+        </TreeView>
+        <GridSplitter Grid.Row="0" Grid.Column="1" Width="5" />
+        <DataGrid  x:Name="StudentsDataGrid" Grid.Row="0" Grid.Column="2" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="Nr indeksu" Binding="{Binding NrIndeksu}"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                <DataGridTextColumn Header="Rok" Binding="{Binding rok}"/>
+                <DataGridTextColumn Header="Semestr" Binding="{Binding Semester}"/>
+                <DataGridTextColumn Header="Specjalizacja" Binding="{Binding Specialisation}"/>
+                <DataGridTextColumn Header="Uwagi" Binding="{Binding uwagi}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" Margin="10">
+            <Label>Semester</Label>
+            <ComboBox>
+                <ComboBox.Items>
+                    <ComboBoxItem IsSelected="True">Semester 2019</ComboBoxItem>
+                    <ComboBoxItem>Semester 2018</ComboBoxItem>
+                    <ComboBoxItem>Semester 2017</ComboBoxItem>
+                </ComboBox.Items>
+            </ComboBox>
+            <Label>Version 1.1.2</Label>
+        </StackPanel>
+    </Grid>
+</Window>
