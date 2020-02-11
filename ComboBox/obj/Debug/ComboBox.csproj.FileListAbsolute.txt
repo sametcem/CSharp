@@ -1,0 +1,14 @@
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\bin\Debug\ComboBox.exe.config
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\bin\Debug\ComboBox.exe
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\bin\Debug\ComboBox.pdb
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\MainWindow.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\App.g.cs
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox_MarkupCompile.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox_MarkupCompile.lref
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\MainWindow.baml
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox.g.resources
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox.Properties.Resources.resources
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox.csproj.GenerateResource.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox.exe
+C:\Users\CEM\source\repos\PJATK-Lecture2d\ComboBox\obj\Debug\ComboBox.pdb
